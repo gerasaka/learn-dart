@@ -1,8 +1,11 @@
 void main() {
   var name = 'my name'; //dinamyc data type, the value could be string, number, map(object), or list
   String text;
-  int number;
-  double decimal;
+
+  num number;     //
+  int integer;    // number datatype
+  double decimal; //
+
   List myArray = [1,2,3]; //dynamic list (default: List<dynamic>), others: List<int>, List<String>, etc.
   Map myObject = {'key': 1, 'other': 1}; //dynamic Map (default: Map(dynamic, dynamic))
   bool iAmCool = true;
